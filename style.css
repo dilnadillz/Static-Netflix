@@ -1,0 +1,361 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    background: black;
+    color: #fff;
+}
+.sec1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/IN-en-20231009-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+    opacity: 0-7;
+    z-index: -1;
+    
+
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.button1{
+    background: transparent;
+    color: white;
+    padding: 6px 17px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+
+.content{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+.content h1{
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 190%;
+    max-width: 748px;
+}
+.content h3{
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.email-signup{
+    background: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.email-signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+.email-signup button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+
+
+
+.sec2{
+    border-top: 8px solid rgb(43, 40, 40);
+    width:auto;
+    height: 530px;
+    background-color: black;
+    display: flex;
+    
+}
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+    text-decoration: none;
+    color: white;
+    width: 950px;
+    margin: auto;
+    padding: 75px 0;
+    text-align: center;
+}
+.image-col{
+    flex-basis: 50%;
+    margin-bottom: 200px;
+
+    display: block;
+    width: 100px;
+    margin: auto;
+
+    
+}
+
+
+
+
+
+
+.sec3{
+    border-top: 8px solid rgb(43, 40, 40);
+    width:auto;
+    height: 530px;
+    background-color: black;
+    display: flex;
+    
+}
+.text-col1{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+    text-decoration: none;
+    color: white;
+    width: 950px;
+    margin: auto;
+    padding: 75px 0;
+    text-align: center;
+}
+.image-col1{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+.sec4{
+    border-top: 8px solid rgb(43, 40, 40);
+    width:auto;
+    height: 530px;
+    background-color: black;
+    display: flex;
+    
+}
+.text-col2{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+    text-decoration: none;
+    color: white;
+    width: 950px;
+    margin: auto;
+    padding: 75px 0;
+    text-align: center;
+}
+.image-col2{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+
+
+
+.sec5{
+    border-top: 8px solid rgb(43, 40, 40);
+    width:auto;
+    height: 530px;
+    background-color: black;
+    display: flex;
+    
+}
+.text-col3{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+    text-decoration: none;
+    color: white;
+    width: 950px;
+    margin: auto;
+    padding: 75px 0;
+    text-align: center;
+}
+.image-col3{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+
+
+.sec6{
+    border-top: 8px solid rgb(43, 40, 40);
+    width:auto;
+    height: 800px;
+    background-color: black;
+}
+.sec6 h2{
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.box{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.box li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+    color: white;
+}
+.box li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+    background: #303030;
+    color: white;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.box .content{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+}
+.box input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.box input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+.box small{
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;           
+}
+.box .email-signup{
+    max-width: 600px;
+    margin: 20px auto 60px;
+    text-align: center;
+}
+
+
+.sec7{
+    border-top: 8px solid rgb(43, 40, 40);
+    width:auto;
+    height: 5%;
+    background-color: black;
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: white;
+    
+
+
+}
+.sec7 h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: rgba(255,255,255,0.7);
+}
+.sec7 .row{
+    align-items: flex-start;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec7 .colum{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px; 
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #000000;
+
+    
+    
+}
+.sec7 .colum a{
+    display: block;
+    text-decoration: none;
+    color: rgba(255,255,255,0.7);
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+
+    
+}
+
